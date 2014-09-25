@@ -33,7 +33,7 @@ public class Main extends Application {
 			root.setLeft(new Text("gauche"));
 			root.setRight(new Text("droite"));
 			root.setBottom(new Text("Bottom"));
-			root.getCenter().setStyle("-fx-background-color: orange;");
+			root.getCenter().setStyle("-fx-text-color:blue;");
 			BorderPane.setAlignment(root.getCenter(), Pos.CENTER);
 			BorderPane.setAlignment(root.getTop(), Pos.CENTER);
 			BorderPane.setAlignment(root.getBottom(), Pos.CENTER);

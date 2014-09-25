@@ -8988,3 +8988,35 @@ Caused by: java.io.IOException: Le processus ne peut pas accéder au fichier car
 	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:100)
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:188)
 	... 7 more
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-09-25 15:48:14.857
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Scene [in Scene.class [in javafx.scene [in C:\Program Files\Java\jre1.8.0_20\lib\ext\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:158)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:719)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-09-25 15:48:14.858
+!MESSAGE Unknown javadoc format for addEventFilter(javafx.event.EventType<T>, javafx.event.EventHandler<? super T>) [in Scene [in Scene.class [in javafx.scene [in C:\Program Files\Java\jre1.8.0_20\lib\ext\jfxrt.jar]]]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-09-25 15:48:15.452
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for getAccelerators() [in Scene [in Scene.class [in javafx.scene [in C:\Program Files\Java\jre1.8.0_20\lib\ext\jfxrt.jar]]]]]
+	at org.eclipse.jdt.internal.core.JavadocContents.getMethodDoc(JavadocContents.java:158)
+	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:719)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2014-09-25 15:48:15.452
+!MESSAGE Unknown javadoc format for getAccelerators() [in Scene [in Scene.class [in javafx.scene [in C:\Program Files\Java\jre1.8.0_20\lib\ext\jfxrt.jar]]]]

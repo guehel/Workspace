@@ -1,0 +1,8 @@
+.root{
+	-fx-background-color:orange;
+	-fx-font-size:25px;
+	/*;*/
+	-fx-padding: 200px
+	-fx-margin-right: 120px;
+
+}

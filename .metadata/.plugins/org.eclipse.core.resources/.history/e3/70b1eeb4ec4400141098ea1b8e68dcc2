@@ -1,0 +1,4 @@
+.root{
+	-fx-background-color: oranage;
+	-fx-font-size: 25px;
+}
