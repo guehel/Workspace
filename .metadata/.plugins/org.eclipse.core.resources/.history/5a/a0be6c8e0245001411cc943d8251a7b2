@@ -1,0 +1,8 @@
+.root{
+	
+	-fx-font-size:25px;
+	/*;*/
+	-fx-padding: 20px;
+
+
+}

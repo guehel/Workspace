@@ -25,7 +25,7 @@ public class Main extends Application {
 			BorderPane root = new BorderPane();
 			Button text = new Button("centre");
 
-			root.setCenter(hBox);
+			root.setCenter(new Text("centre"));
 			Text top = new Text("Top");
 			top.setStyle("-fx-");
 			root.setTop(top);
@@ -33,6 +33,10 @@ public class Main extends Application {
 			root.setRight(new Text("droite"));
 			root.setBottom(new Text("Bottom"));
 			root.getCenter().setStyle("-fx-background-color: orange;");
+			root.getCenter().setStyle("-fx-font-family:serif; -fx-font-style:italic;-fx-stroke-with: 10px;-fx-fill: blue;");
+			root.getLeft().setStyle("-fx-rotate: 90deg;");
+			root.getTop().setStyle("-fx-font-weight: bold;-fx-font-family:monospace;-fx-opacity:0.5;-fx-strikethrough:true;");
+			root.getRight().setStyle("visibility:hidden;");
 			BorderPane.setAlignment(root.getCenter(), Pos.CENTER);
 			BorderPane.setAlignment(root.getTop(), Pos.CENTER);
 			BorderPane.setAlignment(root.getBottom(), Pos.CENTER);

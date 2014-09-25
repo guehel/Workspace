@@ -1,0 +1,57 @@
+package application;
+
+import com.sun.javafx.geom.transform.BaseTransform;
+import com.sun.javafx.jmx.MXNodeAlgorithm;
+import com.sun.javafx.jmx.MXNodeAlgorithmContext;
+import com.sun.javafx.sg.prism.NGNode;
+
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.stage.Stage;
+import javafx.scene.Node;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.text.Text;
+
+public class Main extends Application {
+	@Override
+	public void start(Stage primaryStage) {
+		try {
+
+			HBox hBox = new HBox();
+			hBox.getChildren().add(new Button("Centre"));
+			BorderPane root = new BorderPane();
+			Button text = new Button("centre");
+
+			root.setCenter(new Text("centre"));
+			Text top = new Text("Top");
+			top.setStyle("-fx-");
+			root.setTop(top);
+			root.setLeft(new Text("gauche"));
+			root.setRight(new Text("droite"));
+			root.setBottom(new Text("Bottom"));
+			root.getCenter().setStyle("-fx-background-color: orange;");
+			root.getCenter().setStyle("-fx-font-family:serif; -fx-font-style:italic;-fx-stroke-with: 10px;-fx-fill: blue;");
+			root.getLeft().setStyle("-fx-rotage:90");
+			root.getTop().setStyle("-fx-font-weight: bold;-fx-font-family:monospace;");
+			BorderPane.setAlignment(root.getCenter(), Pos.CENTER);
+			BorderPane.setAlignment(root.getTop(), Pos.CENTER);
+			BorderPane.setAlignment(root.getBottom(), Pos.CENTER);
+			BorderPane.setAlignment(root.getLeft(), Pos.CENTER);
+			BorderPane.setAlignment(root.getRight(), Pos.CENTER);
+			Scene scene = new Scene(root, 400, 400);
+			scene.getStylesheets().add(
+					getClass().getResource("application.css").toExternalForm());
+			primaryStage.setScene(scene);
+			primaryStage.show();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
