@@ -1,0 +1,15 @@
+.root{
+	-fx-background-image: background.jpg;
+}
+#pane{
+	-fx-hgap:10px;
+	-fx-vgap:10px;
+	-fx-padding: 25 25 25 25;
+}
+
+#sceneTitle{
+	-fx-font-family: tahoma;
+	-fx-font-weight: NORMAL;
+	-fx-font-size: 20px;
+	
+}

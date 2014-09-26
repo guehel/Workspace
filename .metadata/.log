@@ -8068,3 +8068,13 @@ Binding(CTRL+SHIFT+ARROW_DOWN,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.debug.ui 4 120 2014-09-25 23:28:20.930
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:267)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:94)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:700)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

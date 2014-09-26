@@ -1,0 +1,12 @@
+#pane{
+	-fx-hgap:25px;
+	-fx-vgap:25px;
+	-fx-padding: 25 25 25 25;
+}
+
+#sceneTitle{
+	-fx-font-family: tahoma;
+	-fx-font-weight: NORMAL;
+	-fx-font-size: 20px;
+	
+}

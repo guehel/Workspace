@@ -1,0 +1,4 @@
+#pane{
+	-fx-hgap:10px;
+	-fx-vgap:10px;
+}

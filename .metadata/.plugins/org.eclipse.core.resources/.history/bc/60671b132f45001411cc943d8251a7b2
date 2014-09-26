@@ -1,0 +1,36 @@
+.root {
+	-fx-background-image: url("background.jpg");
+}
+
+#pane {
+	-fx-hgap: 10px;
+	-fx-vgap: 10px;
+	-fx-padding: 25 25 25 25;
+}
+
+#sceneTitle {
+	-fx-font-size: 32px;
+	-fx-font-weight: bold;
+	-fx-fill: #818181;
+	-fx-effect: innershadow(three-pass-box, rgba(0, 0, 0, 0.7), 6, 0.0, 0, 2);
+}
+
+.label {
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #333333;
+	-fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+
+#textTarget {
+	-fx-fill: FIREBRICK;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 0, 0, 0, 1);
+}
+
+.button{
+	-fx-text-fill: white;
+	-fx-background-color: linear-gradient(#2A5058, #61A2B1);
+	-fx-font-weight: bold;
+	  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}

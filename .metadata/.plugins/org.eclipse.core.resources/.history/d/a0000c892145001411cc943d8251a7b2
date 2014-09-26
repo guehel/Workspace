@@ -1,0 +1,5 @@
+#pane{
+	-fx-hgap:10px;
+	-fx-vgap:10px;
+	-fx-padding: 25 25 25 25;
+}
